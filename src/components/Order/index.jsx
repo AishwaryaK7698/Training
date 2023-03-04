@@ -120,12 +120,6 @@ export default function Order() {
             date: false,
             customer_name: false,
             total_amount: false,
-            // product_details: [{
-            //     item_name: false,
-            //     quantity: false,
-            //     price_unit: false,
-            //     total_price: false
-            // }]
         })
     }
     
@@ -161,7 +155,7 @@ export default function Order() {
     <Animation>
         <div className='flex justify-center items-center flex-col'>
             <div className='border border-[#399c33] p-10 w-[1280px] mx-auto my-20'>
-                <h1 className='text-bold text-[#000000] text-4xl pb-7'>ORDER PAGE</h1>
+                <h1 className='text-bold text-[#000000] text-4xl pb-7'>ORDER PAGE1</h1>
                 <form>
                     <div className='flex -mx-2.5'>
                         <div className='w-[250px] flex flex-col px-2.5'>
