@@ -27,6 +27,15 @@
 .App-link {
   color: #61dafb;
 }
+.custom-date .react-datepicker-wrapper input{
+  height: 42px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #797676!important;
+}
+.custom-date .react-datepicker-ignore-onclickoutside{
+  outline: none !important;
+}
 
 @keyframes App-logo-spin {
   from {
