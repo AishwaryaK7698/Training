@@ -43,28 +43,6 @@ export default function Tablebody({list,order}) {
                         ))
                     ))}
                 </div>
-                {/* <div className='flex flex-col bg-slate-100'>
-                    <div className='flex'>
-                        <p className='min-w-[200px] font-semibold text-lg bg-white p-0'></p>
-                        <p className='min-w-[200px] font-semibold text-lg py-2'>Name</p>
-                        <p className='min-w-[200px] font-semibold text-lg py-2'>Quantity</p>
-                        <p className='min-w-[200px] font-semibold text-lg py-2'>Price Unit</p>
-                        <p className='min-w-[200px] font-semibold text-lg py-2'>Total Price</p>
-                    </div>
-                    {Object.keys(list['product_details']).length > 0 && Object.values(list['product_details']).map((item) => (
-                        <>
-                            <div className='flex'>
-                                <div className='min-w-[200px] bg-white'></div>
-                                <div className='border border-[#000000] mb-2 mx-5'>
-                                    <div className='flex'>
-                                    {Object.keys(item).map((value)=>(
-                                        <div className='text-[#000000] text-sm font-normal min-w-[200px] p-5'>{item[value]}</div>
-                                    ))}
-                                    </div>
-                                </div>
-                            </div>
-                    </>))}
-                </div> */}
                 </>
             :
             <tbody>
