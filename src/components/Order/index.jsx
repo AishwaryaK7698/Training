@@ -80,16 +80,6 @@ export default function Order() {
                 }
                 break;
             case 'product_details':
-                // Object.values(form).map((value)=>(
-                //     Object.values(value).map((val)=>(
-                //         if(val.item_name==="" || val.quantity==="" || val.price_unit==="" || val.total_price===""){
-                //             setError((prevState) => ({
-                //                 ...prevState,
-                //                 ["product_details"]: `Please fill the data`,
-                //             }));
-                //         }
-                //     ))
-                // ))
                 break;
             default: break;
             }
