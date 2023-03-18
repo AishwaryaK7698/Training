@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        "custom-1": "calc(100vh - 48px)"
+        "custom-1": "calc(100vh - 48px)",
+        "custom-2": "calc(100vh - 160px)"
       }
     },
   },

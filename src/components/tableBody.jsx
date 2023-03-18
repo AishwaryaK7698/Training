@@ -2,7 +2,6 @@
 import React from 'react'
 
 export default function Tablebody({list,order}) {
-    console.log(list,order,"mkllkl")
   return (
         <>
             {(order) ? 
