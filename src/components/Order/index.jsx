@@ -1,11 +1,12 @@
 /* eslint-disable array-callback-return */
 /* eslint-disable no-mixed-operators */
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Button from '../buttons'
 import Animation from '../animation'
 import Tablebody from '../tableBody'
 import Datepicker from 'react-datepicker'
 import "react-datepicker/dist/react-datepicker.css"
+import { Link } from 'react-router-dom'
 
 export default function Order() {
     const [loader, setLoader] = useState(false)
@@ -92,7 +93,6 @@ export default function Order() {
             let obj = {}
             if(arr.length>0){
                 arr.map((item)=>{
-                console.log(Object.keys(item).includes(form['order_number']),"lkkkk")
                 if(Object.keys(item).includes(form['order_number'])===false){
                     obj[form['order_number']] = form
                 }
@@ -226,6 +226,9 @@ export default function Order() {
                 </div>
             }
         </div>
-    </Animation>
+        <Link to="/cart" className='mt-5'>
+          <Button text="Click on next page"/>
+        </Link>    
+        </Animation>
   )
 }

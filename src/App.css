@@ -36,6 +36,11 @@
 .custom-date .react-datepicker-ignore-onclickoutside{
   outline: none !important;
 }
+.truncate{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 
 @keyframes App-logo-spin {
   from {
